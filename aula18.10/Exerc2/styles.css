@@ -1,0 +1,105 @@
+body,
+html {
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h3{
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    padding: 1px;
+}
+
+
+
+.card {
+    border-radius: 0px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    display: flex;
+    height: 260px;
+    width: 330px;
+    flex-direction: column;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 10px
+}
+
+.topico{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 65px;
+
+}
+
+.topico:hover{
+    background-color: #383838;
+}
+
+svg{
+    width: 20px;
+    fill: white;
+}
+
+.logo{
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.topic{
+    font-size: 15px;
+}
+
+.hashtag{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.visualizacoes{
+    font-size: 15px;
+} 
+
+.topicos svg:hover{
+    background-color: #585656;
+    border-radius: 10px;
+    height: 20px;
+    width: 25px;
+    padding: 3x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0,3s linear;
+    
+}
+
+p{
+    margin: 2px;
+}
+

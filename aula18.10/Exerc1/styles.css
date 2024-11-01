@@ -1,0 +1,55 @@
+body,
+html {
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    height: 250px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.voltar {
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: grey;
+    padding: 10px;
+}
+
+.excluir {
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(255, 252, 252);
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: grey;
+    padding: 10px 50px;
+}
