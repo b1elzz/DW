@@ -13,5 +13,12 @@ body{
     border-radius: 15px;
     height: 550px;
     width: 500px;
+    display: flex;
     
+    
+}
+
+.google svg{
+    width: 15px;
+    height: 15px;
 }
