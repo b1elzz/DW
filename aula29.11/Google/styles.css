@@ -1,0 +1,122 @@
+body, html{
+    height: 100%
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2024;
+
+}
+
+h1{
+    font-size: 100px;
+    position: absolute;
+    top: 2px;
+    color: white;
+}
+
+.pesquisa input {
+    width: 500px;
+    height: 40px;
+    padding-left: 42px;
+    padding-right: 123px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: white;
+    background-color: #4f5155;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 17px;
+  }
+
+  
+  .pesquisa label{
+    font-size: 50px;
+  }
+
+  .pesquisa-wrapper{
+    position: relative;
+  }
+
+.lupa svg{
+    fill: rgb(161, 158, 158);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    left: 13px;
+}
+
+.teclado svg{
+    fill: rgb(161, 158, 158);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 80px;
+    cursor: pointer;  
+}
+
+.microfone svg{
+    fill: rgb(161, 158, 158);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 48px;  
+    cursor: pointer;
+}
+
+.camera svg{
+    fill: rgb(161, 158, 158);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 16px;  
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.b1{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
